@@ -19,5 +19,8 @@ My own vim configurations for remote coding in Python, heavily based on [vim-for
     cp Simple-Remote-Vim/python.vim ~/.vim/after/syntax/python.vim
     ```
     Note that ```python.vim``` is to highlight Python function properly.
+    ![w_pvim](w_python.vim.png)
+    ![wo_pvim](wo_python.vim.png)
 
 ## Plugins
+For basic configurations and mappings in ```.vimrc```, please refer to [this blog](https://vimjc.com/vimrc.html) for detailed explanations.
