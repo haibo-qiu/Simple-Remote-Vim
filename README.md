@@ -1,5 +1,5 @@
 # Simple-Remote-Vim
-My own vim configurations for remote coding in Python, heavily based on [vim-for-server](https://github.com/wklken/vim-for-server), are developed by incorporating few practical plugins and better python syntax highlight (```pythonfunc.vim```). 
+Simple vim configurations for remote coding in Python, heavily based on [vim-for-server](https://github.com/wklken/vim-for-server), are developed by incorporating few practical plugins and better python syntax highlight (```pythonfunc.vim```). 
 
 ## Install
 1. Back up the original ```.vimrc``` 
