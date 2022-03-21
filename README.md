@@ -19,7 +19,7 @@ My own vim configurations for remote coding in Python, heavily based on [vim-for
     cp Simple-Remote-Vim/pythonfunc.vim ~/.vim/after/syntax/pythonfunc.vim
     ```
     Note that ```pythonfunc.vim``` is to highlight Python function properly.<br />
-    <img src="pics/w_pythonfunc.vim.png" width="480"/> <img src="pics/wo_pythonfunc.vim.png" width="480"/> 
+    <img src="pics/w_pythonfunc.vim.png" width="425"/> <img src="pics/wo_pythonfunc.vim.png" width="425"/> 
     
 4. Launch ```vim``` and run ```:PluginInstall``` to install plugins.
 
@@ -37,7 +37,7 @@ Several adopted plugins are introduced as follows:
 8. [ctrlpvim/ctrlp.vim:](https://github.com/ctrlpvim/ctrlp.vim) a fuzzy file finder with ```,p```.
 9. [tpope/vim-fugitive:](https://github.com/tpope/vim-fugitive) use arbitrary Git commands in vim command line, e.g., ```:Git status -s```.
 
-Note that there is no semantic autocompletion plugin in this ```.vimrc```. if your vim is compiled with ```python3``` support, [jedi-vim](https://github.com/davidhalter/jedi-vim) would be a good choice. To pursue a even better experience in autocompletion (e.g., [LSP support](https://github.com/neovim/nvim-lspconfig)) like vscode, [coc.nvim](https://github.com/neoclide/coc.nvim) can be considered, which, however, requires [vim8](https://www.vim.org/vim-8.1-released.php) or [neovim](https://github.com/neovim/neovim).
+Note that there is no semantic autocompletion plugin in this ```.vimrc```. if your vim is compiled with ```python3``` support, [jedi-vim](https://github.com/davidhalter/jedi-vim) would be a good choice. To pursue a even better experience in autocompletion (e.g., [LSP support](https://github.com/neovim/nvim-lspconfig)) like [vscode](https://code.visualstudio.com/), [coc.nvim](https://github.com/neoclide/coc.nvim) can be considered, which, however, requires [vim8](https://www.vim.org/vim-8.1-released.php) or [neovim](https://github.com/neovim/neovim).
 
 ## Next Station: Neovim
 Resources for learning and configuring [neovim](https://github.com/neovim/neovim):
