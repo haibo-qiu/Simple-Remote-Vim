@@ -19,7 +19,7 @@ My own vim configurations for remote coding in Python, heavily based on [vim-for
     cp Simple-Remote-Vim/pythonfunc.vim ~/.vim/after/syntax/pythonfunc.vim
     ```
     Note that ```pythonfunc.vim``` is to highlight Python function properly.<br />
-    <img src="pics/w_pythonfunc.vim.png" width="425"/> <img src="pics/wo_pythonfunc.vim.png" width="425"/> 
+    <img src="pics/w_pythonfunc.vim.png" width="400"/> <img src="pics/wo_pythonfunc.vim.png" width="400"/> 
     
 4. Launch ```vim``` and run ```:PluginInstall``` to install plugins.
 
