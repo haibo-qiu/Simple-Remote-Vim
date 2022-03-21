@@ -37,4 +37,6 @@ Several adopted plugins are introduced as follows:
 8. [ctrlpvim/ctrlp.vim:](https://github.com/ctrlpvim/ctrlp.vim) a fuzzy file finder with ```,p```.
 9. [tpope/vim-fugitive:](https://github.com/tpope/vim-fugitive) use arbitrary Git commands in vim command line, e.g., ```:Git status -s```.
 
-Note that there is no semantic autocompletion plugin included in ```.vimrc```.
+Note that there is no semantic autocompletion plugin included in this ```.vimrc```. if your vim is compiled with ```python3``` support, [jedi-vim](https://github.com/davidhalter/jedi-vim) would be a good choice. To pursue a even better experience in autocompletion (e.g., [LSP support](https://github.com/neovim/nvim-lspconfig)) like vscode, [coc.nvim](https://github.com/neoclide/coc.nvim) can be considered, which, however, requires [vim8](https://www.vim.org/vim-8.1-released.php) or [neovim](https://github.com/neovim/neovim).
+
+## Next: Neovim
