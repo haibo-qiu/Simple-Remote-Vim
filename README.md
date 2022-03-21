@@ -27,12 +27,12 @@ My own vim configurations for remote coding in Python, heavily based on [vim-for
 For basic configurations and mappings in ```.vimrc```, please refer to [this blog](https://vimjc.com/vimrc.html) for detailed explanations.
 
 Several adopted plugins are introduced as follows:
-1. [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
-2. [tell-k/vim-autopep8](https://github.com/tell-k/vim-autopep8)
-3. [preservim/nerdtree](https://github.com/preservim/nerdtree)
-4. [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)
-5. [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
-6. [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
-7. [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
-8. [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
-9. [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
+1. [vim-syntastic/syntastic:](https://github.com/vim-syntastic/syntastic) make sure flake8 is installed (```pip install flake8```), and ```<F7>``` is for syntax checking. 
+2. [tell-k/vim-autopep8:](https://github.com/tell-k/vim-autopep8) autopep8 is required (```pip install autopep8```), and ```<F8>``` is for autopep8 formatting. 
+3. [preservim/nerdtree:](https://github.com/preservim/nerdtree) a file system explorer by ```<ctrl-n>```.
+4. [preservim/nerdcommenter:](https://github.com/preservim/nerdcommenter) for visual black, ```,cc``` and  ```,cu``` are for commenting and uncommenting quickly.
+5. [Xuyuanp/nerdtree-git-plugin:](https://github.com/Xuyuanp/nerdtree-git-plugin) show git status flags for nerdtree file explorer.
+6. [vim-airline/vim-airline:](https://github.com/vim-airline/vim-airline) a nice statusline at the bottom of vim window.
+7. [vim-airline/vim-airline-themes:](https://github.com/vim-airline/vim-airline-themes) various themes for airline. 
+8. [ctrlpvim/ctrlp.vim:](https://github.com/ctrlpvim/ctrlp.vim) a fuzzy file finder with ```,p```.
+9. [tpope/vim-fugitive:](https://github.com/tpope/vim-fugitive) use arbitrary Git commands in vim command line, e.g., ```:Git status -s```.
