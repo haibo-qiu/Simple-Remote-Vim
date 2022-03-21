@@ -36,3 +36,5 @@ Several adopted plugins are introduced as follows:
 7. [vim-airline/vim-airline-themes:](https://github.com/vim-airline/vim-airline-themes) various themes for airline. 
 8. [ctrlpvim/ctrlp.vim:](https://github.com/ctrlpvim/ctrlp.vim) a fuzzy file finder with ```,p```.
 9. [tpope/vim-fugitive:](https://github.com/tpope/vim-fugitive) use arbitrary Git commands in vim command line, e.g., ```:Git status -s```.
+
+Note that there is no semantic autocompletion plugin included in ```.vimrc```.
