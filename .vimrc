@@ -32,7 +32,7 @@ set tm=500
 
 
 " show location
-set cursorcolumn
+"set cursorcolumn
 set cursorline
 
 
@@ -272,7 +272,8 @@ syntax enable
 " for python-syntax
 let python_highlight_all = 1
 
-let g:airline_theme='minimalist'
+let g:airline_theme='deus'
+let g:airline_solarized_bg='dark'
 
 " for nerdtree
 map <C-n> :NERDTreeToggle<CR>
